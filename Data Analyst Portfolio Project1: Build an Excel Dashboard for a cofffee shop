@@ -1,0 +1,30 @@
+
+THE SITUATION:
+You've recently become a franchise owner at testo Roasters, a coffee shop chain with three locations in London City
+
+THE ASSIGNMENT:
+To better understand purchase behavior and streamline operations, i have collected transactional data from Jan-Jun 2023.
+The goal is to transform the data into a dynamic dashboard that franchise owners can use to identify patterns, trends and opportunities for the business.
+
+
+THE OBJECTIVES
+1. Profile and prepare the raw data for analysis
+2. Explore the data with Excel PivotTables
+3. Build a dynamic dashboard to visualize patterns and trends
+
+OBJECTIVE 1: PREPARE THE DATA FOR ANALYSIS
+  1. Add a new column to calculate Revenue (price* quantity)
+  2. Add new columns to calculate Month and Day of Week based on the transaction date.
+  3. Add a new column to extract Hour from the transaction time
+
+OBJECTIVE 2: EXPLORE THE DATA WITH PIVOT TABLES
+  1. Insert a PivotTable on a new tab to show revenue by month
+  2. Add two more PivotTables (on the same sheet) to show the number of transactions by day of week and by hour of day
+  3. Add a PivotTable (on the same sheet) to show the number of transactions by product category, sorted descending by transactions
+  4. Add a PivotTable (on the same sheet) to show the number of transactions and revenue by product type, sorted descending and filtered to the Top 15 (by transactions)
+
+OBJECTIVE 3: BUILD A DYNAMIC DASHBOARD
+  1. Add Pivot Charts to show revenue by month as a line chart, transactions by day of week and hour of day as column charts, and transactions by product category as a bar chart
+  2. Assemble the charts into a rough dashboard layout, and include space for the PivotTable showing Top 15 product types
+  3. Add a slicer for store location, and connect it to all of the PivotTables on the sheet
+  4. Adjust formatting, alignment and polish to finalize the dashboard
